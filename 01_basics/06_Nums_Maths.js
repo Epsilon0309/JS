@@ -9,8 +9,12 @@ const digit = new Number(425)
 
 
 const balance = 1234500
-console.log(balance.toPrecision(3));
-console.log(balance.toLocaleString('en-IN'));
+// console.log(balance.toPrecision(3));
+// console.log(balance.toLocaleString('en-IN'));
 
+const min = 10
+const max = 20
+
+console.log(Math.floor(Math.random()*(max-min+1))+min);
 
 
