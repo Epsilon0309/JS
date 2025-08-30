@@ -31,7 +31,7 @@ JsUser.greeting = function(){
 }
 
 JsUser.greetingTwo = function(){
-    console.log(`Hello Js user ${this.name}`);
+    console.log(`Hello Js user ${this.name}`); // this keyword is used to accesss the name of the JsUser object
 }
 
 console.log(JsUser.greeting); // function anonymus
