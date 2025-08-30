@@ -12,12 +12,12 @@ const myArr2 = new Array(1, 2, 3, 4);
 
 // console.log(myArr2);
 
-// console.log(myArr.includes(6));
+// console.log(myArr.includes(6)); // returns a boolean value
 // console.log(myArr.indexOf(3));
 
-// const newArr = myArr.join()// joins every element of the array to a string
+ const newArr = myArr.join()// joins every element of the array to a string
 // console.log(newArr);
-// console.log(typeof(newArr));
+ console.log(typeof(newArr));
 
 //slice and splice
 console.log("A",myArr);

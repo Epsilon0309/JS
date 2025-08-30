@@ -26,7 +26,7 @@ const obj3 = { 5: "a", 6: "b" };
 
 // const obj4 = Object.assign({},obj1,obj2,obj3)
 
-const obj4 = { ...obj1, ...obj2, ...obj3 };
+const obj4 = { ...obj1, ...obj2, ...obj3 }; // flattenning 
 
 // first {} is used for the output to make sure it is an object
 //console.log(obj4);
@@ -48,7 +48,7 @@ const obj5 = [
 
 // console.log(obj5[1].email);
 
-console.log(Object.keys(appleUser));
-console.log(Object.values(appleUser));
-console.log(Object.entries(appleUser));
+console.log(Object.keys(appleUser)); // returns an array of the keys
+console.log(Object.values(appleUser)); // returns an array of the values
+console.log(Object.entries(appleUser)); // returns an array of the key-value pairs
 
